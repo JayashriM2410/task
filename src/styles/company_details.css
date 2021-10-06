@@ -1,0 +1,76 @@
+.com-det-frm{
+    width: 100%;
+}
+.comp-det-hed{
+    padding: 15px 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.comp-det{
+    width: 27%;
+    background-color: white;
+    padding: 18px;
+    text-align: left;
+}
+.comp-det-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.upl-lbl{
+    padding-left: 20px;
+    font-size: 11px;
+    color: #ff4800;
+}
+.det{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 12px 0 0 0;
+}
+.det-lbl{
+    padding-bottom: 5px;
+    color: #b5b5b5;
+}
+.det-inp{
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.tem-chk{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.chk{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+    margin: 0;
+}
+.chk-lbl{
+    padding-left: 10px;
+    font-size: 11px;
+    color: #b5b5b5;
+}
+.com-btns{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+.det-inp:focus{
+    border-color: #ff4800;
+    outline: #ff4800;
+}
+.btn-dis{
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 8px 0 8px 0;
+    background-color: #f19570;
+    color: white;
+    font-size: 11px;
+}
